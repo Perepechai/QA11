@@ -1,0 +1,19 @@
+{
+    "type": "object",
+    "title": "Post user",
+    "required": [
+        "id",
+        "token"
+    ],
+    "properties": {
+        "id": {
+            "type": "integer",
+            "title": "User id"
+        },
+        "token": {
+            "type": "string",
+            "title": "User token"
+        }
+    },
+    "additionalProperties": false
+}
